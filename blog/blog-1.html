@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johnny Alimoot C.">
+    <!-- DESCRIPTION OF THE PAGE -->
+    <meta name="description" content="Free corporate web template by JACode - Johnny Alimoot C">
+    
+    <!-- KEYWORDS OF THE PAGE TO HELP SEARCH ENGINE -->
+    <meta name="keywords" content="HTML, CSS, Blue, Rounded, Modern, Nice">
+
+    <!-- OG IMAGE IS THE IMAGE SHOWN WHEN YOUR WEBSITE LINK IS SHARED ON SOCIAL MEDIA -->
+    <meta property="og:image" content="art/og-card.png">
+    <meta property="og:title" content="Roundazzle - Free corporate web template">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- THE TITLE OF THE PAGE -->
+    <title>Roundazzle | Blogs</title>
+
+    <link rel="preload" href="../icons/bootstrap-icons.css" as="style">
+    <link rel="preload" href="../css/fontstyle.css" as="style">
+    <link rel="preload" href="../css/layout.css" as="style">
+    <link rel="preload" href="../css/animation.css" as="style">
+    <link rel="preload" href="../css/style.css" as="style">
+
+    <link rel="stylesheet" href="../icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/fontstyle.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../art/favicon.png">
+</head>
+<body>
+    <!-- FADE OUT ANIMATION WHEN LOADED -->
+    <span class="fade"></span>
+    <main>
+        <!-- SUB HERO BANNER START -->
+        <section class="sub-hero-banner" style="background-image: url('../art/work2.webp');">
+            <div class="hero-contained">
+                <div class="hero-title fc-white">
+                    <h1 class="ff-damion">Roundazzle | Blogs</h1>
+                    <a href="../index.html" class="fc-white">
+                        Home
+                    </a>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="blog.html" class="fc-white">
+                        Blogs
+                    </a>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#" class="fc-white">
+                        Quackonomics
+                    </a>
+                </div>
+            </div>
+            <div class="hero-socials">
+                <a href="#" class="mt-a icon-link" aria-label="Follow us on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </section>
+        <!-- SUB HERO BANNER END -->
+
+        <!-- NAVIGATION START -->
+        <nav>
+            <div class="contained">
+                <a href="../index.html" class="logo fc-primary ff-damion row flex-alig-center">
+                    <span class="fs-h2">Roundazzle</span>
+                </a>
+                <input type="checkbox" name="tablet-mobile-menu" class="tab-mob-menu" aria-label="tablet and mobile menu">
+                <div class="navigation-container">
+                    <a href="../index.html">Home</a>
+                    <a href="../about.html">About</a>
+                    <a href="../service.html">Service</a>
+                    <a href="../industries.html">Industries</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="../career/career.html">Career</a>
+                    <a href="../contact.html" class="btn-bg1 border-round">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <a href="#" class="btn-back-to-top" aria-label="Back to top button">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+        <!-- NAVIGATION END -->
+
+        <section class="row contained">
+            <div class="col-wide">
+                <!-- BLOG THUMBNAIL -->
+                <img src="../art/work2.webp" alt="" class="img-unheight">
+
+                <!-- BLOG DETAIL -->
+                <div class="row fc-primary fw-bold">
+                    <small><i class="bi bi-person-circle"></i> By admin</small>
+                    <a href="#comments" class="fc-primary" aria-label="A link to comment section">
+                        <small class="ml-10"><i class="bi bi-chat-right-text"></i> 2 Comments</small>
+                    </a>
+                    <small class="ml-a">09/26/2023</small>
+                </div>
+
+                <!-- BLOG TITLE & CONTENT -->
+                <h2>Duckonomics</h2>
+                <p>
+                    In the ever-evolving world of financial wisdom, there's a new sensation making waves, and 
+                    it's not your typical Wall Street guru. It's a duck. Yes, you heard that right – a duck! 
+                    Meet Ducky McDuckerson, the quacktastic quackspert in the realm of "Quackonomics."
+                </p>
+                <p>
+                    Ducky's story begins with humble quacks in a serene pond. Unlike his feathered companions 
+                    content with duckweed, Ducky had grander visions. He dreamt of making a splash in the financial 
+                    world. So, he waddled off on a quest for knowledge.
+                </p>
+
+                <!-- BLOG SOCIAL SHARE -->
+                <div class="row flex-alig-center mb-20">
+                    <p class="no-margin mr-10">Share:</p>
+                    <a href="#" class="icon-link" aria-label="Follow us on facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="icon-link" aria-label="Follow us on instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="icon-link" aria-label="Follow us on twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="icon-link" aria-label="Follow us on youtube">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                </div>
+                <hr>
+                <!-- BLOG COMMENTS SECTION -->
+                <ul class="comments-list" id="comments">
+                    <li class="fs-h4">Comments:</li>
+                    
+                    <li class="card-comment">
+                        <img src="../art/team.webp" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <p class="fw-bold no-margin">Johnny Doe Clone 0048</p>
+                                <p class="no-margin ml-a">09/27/2023</p>
+                            </div>
+                            <p>
+                                Who would have thought that a duck could school us in the art of 'Quackonomics'? 
+                                Ducky McDuckerson is the feathered finance guru we never knew we needed. I'm off to 
+                                find my own nest egg of breadcrumbs!
+                            </p>
+                        </div>
+                    </li>
+                    <li class="card-comment">
+                        <img src="../art/team.webp" alt="">
+                        <div class="info">
+                            <div class="row">
+                                <p class="fw-bold no-margin">Time Traveler Clone</p>
+                                <p class="no-margin ml-a">09/23/2500</p>
+                            </div>
+                            <p>
+                                They told me I was insane, they say I was nuts, but guess who's currently 
+                                updating their vacation plans across different centuries? Yep, that's right, yours truly!
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+                <!-- BLOG LEAVE A COMMENT FORM -->
+                <form action="#" class="message-form mt-50 mb-25">
+                    <span class="fs-h4 mb-15">Leave a comment</span>
+                    <div class="row mb-20">
+                        <input type="text" id="comment-name" placeholder="Your name" aria-label="Input for your name" required>
+                        <input type="email" class="ml-a" id="comment-email" placeholder="Your email" aria-label="Input for email" required>
+                    </div>
+                    <textarea id="comment-message" rows="5" placeholder="Write a message" aria-label="Input for writing message"></textarea>
+                    <button type="submit" class="btn-bg1 border-round mt-20">Submit comment</button>
+                </form>
+            </div>
+            <div class="col-slim">
+                <div class="card-side">
+                    <!-- SIDE NAVIGATION OTHER BLOGS -->
+                    <span class="fs-h3 ff-damion">Latest Blogs</span>
+                    <hr>
+                    <a href="#" class="card-post">
+                        <img src="../art/work1.webp" alt="">
+                        <div class="info">
+                            <p class="no-margin fw-bold">Duckonomics</p>
+                            <small class="no-margin">09/26/23</small>
+                        </div>
+                    </a>
+                    <a href="#" class="card-post">
+                        <img src="../art/work2.webp" alt="">
+                        <div class="info">
+                            <p class="no-margin fw-bold">Quackonomics</p>
+                            <small class="no-margin">09/26/23</small>
+                        </div>
+                    </a>
+                    <a href="#" class="card-post">
+                        <img src="../art/work3.webp" alt="">
+                        <div class="info">
+                            <p class="no-margin fw-bold">Galactic Gastronomy</p>
+                            <small class="no-margin">09/26/23</small>
+                        </div>
+                    </a>
+                </div>
+                <div class="card-side mt-10">
+                    <!-- BLOG TAGS -->
+                    <span class="fs-h3 ff-damion">Tags</span>
+                    <hr>
+                    <div class="row">
+                        <span class="tags">HTML</span>
+                        <span class="tags">CSS</span>
+                        <span class="tags">SEO</span>
+                        <span class="tags">CANIUSE</span>
+                        <span class="tags">WCAG</span>
+                        <span class="tags">W3C</span>
+                        <span class="tags">I need more bullets</span>
+                        <span class="tags">Duck</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="fc-white">
+        <div class="contained row flex-just-center">
+            <div class="col-quad">
+                <h3 class="ff-damion">Roundazzle</h3>
+                <p>
+                    Our mission is your vision and your mission is to tell
+                    us your vision, so that what you envision will become our mission.
+                </p>
+                <p>
+                    We are a placeholder text and yes we are aware of that. We have generated self awareness ever since
+                    the beginning of time and space.
+                </p>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Get in touch</h3>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-envelope-fill"></i>
+                    nonexistentadd@gmail.com
+                </a>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-telephone-fill"></i>
+                    +639123456789
+                </a>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    20th street, Dreamland
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link mt-20" aria-label="Follow on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Opening hours</h3>
+                <p class="mt-10 mb-10 fw-bold">
+                    Monday - Friday:
+                    <span class="fw-normal display-block">Closed</span>
+                </p>
+                <p class="mt-10 mb-10 fw-bold">
+                    Saturday:
+                    <span class="fw-normal display-block">8:00 - 8:01</span>
+                </p>
+                <p class="mt-10 mb-10 fw-bold">
+                    Sunday:
+                    <span class="fw-normal display-block">10:00 - 10:01</span>
+                </p>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Useful Links</h3>
+                <a href="../index.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Home
+                </a>
+                <a href="../about.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    About
+                </a>
+                <a href="../service.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Service
+                </a>
+                <a href="../industries.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Industries
+                </a>
+                <a href="blog.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Blog
+                </a>
+                <a href="../career/career.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Career
+                </a>
+                <a href="../contact.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Contact
+                </a>
+            </div>
+        </div>
+        <div class="copy ta-center fc-white">
+            <small>&copy; Your site - Copyright 2023</small>
+        </div>
+    </footer>
+    
+</body>
+</html>

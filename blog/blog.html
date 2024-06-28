@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Johnny Alimoot C.">
+    <!-- DESCRIPTION OF THE PAGE -->
+    <meta name="description" content="Free corporate web template by JACode - Johnny Alimoot C">
+    
+    <!-- KEYWORDS OF THE PAGE TO HELP SEARCH ENGINE -->
+    <meta name="keywords" content="HTML, CSS, Blue, Rounded, Modern, Nice">
+
+    <!-- OG IMAGE IS THE IMAGE SHOWN WHEN YOUR WEBSITE LINK IS SHARED ON SOCIAL MEDIA -->
+    <meta property="og:image" content="art/og-card.png">
+    <meta property="og:title" content="Roundazzle - Free corporate web template">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- THE TITLE OF THE PAGE -->
+    <title>Roundazzle | Blogs</title>
+
+    <link rel="preload" href="../icons/bootstrap-icons.css" as="style">
+    <link rel="preload" href="../css/fontstyle.css" as="style">
+    <link rel="preload" href="../css/layout.css" as="style">
+    <link rel="preload" href="../css/animation.css" as="style">
+    <link rel="preload" href="../css/style.css" as="style">
+
+    <link rel="stylesheet" href="../icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/fontstyle.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/animation.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="../art/favicon.png">
+</head>
+<body>
+    <!-- FADE OUT ANIMATION WHEN LOADED -->
+    <span class="fade"></span>
+    <main>
+        <!-- SUB HERO BANNER START -->
+        <section class="sub-hero-banner" style="background-image: url('../art/overlay.webp');">
+            <div class="hero-contained">
+                <div class="hero-title fc-white">
+                    <h1 class="ff-damion">Roundazzle | Blogs</h1>
+                    <a href="../index.html" class="fc-white">
+                        Home
+                    </a>
+                    <i class="bi bi-chevron-right"></i>
+                    <a href="#" class="fc-white">
+                        Blogs
+                    </a>
+                </div>
+            </div>
+            <div class="hero-socials">
+                <a href="#" class="mt-a icon-link" aria-label="Follow us on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="icon-link mt-10" aria-label="Follow us on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+        </section>
+        <!-- SUB HERO BANNER END -->
+
+        <!-- NAVIGATION START -->
+        <nav>
+            <div class="contained">
+                <a href="../index.html" class="logo fc-primary ff-damion row flex-alig-center">
+                    <span class="fs-h2">Roundazzle</span>
+                </a>
+                <input type="checkbox" name="tablet-mobile-menu" class="tab-mob-menu" aria-label="tablet and mobile menu">
+                <div class="navigation-container">
+                    <a href="../index.html">Home</a>
+                    <a href="../about.html">About</a>
+                    <a href="../service.html">Service</a>
+                    <a href="../industries.html">Industries</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="../career/career.html">Career</a>
+                    <a href="../contact.html" class="btn-bg1 border-round">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+        <a href="#" class="btn-back-to-top" aria-label="Back to top button">
+            <i class="bi bi-chevron-up"></i>
+        </a>
+        <!-- NAVIGATION END -->
+
+        <!-- BLOGS ENTRY START -->
+        <section class="contained">
+            <h2 class="section-title ff-damion">Blogs</h2>
+            <p class="ta-center col-wide mlmr-a">
+                Stay informed about our blogs, it's highly unlikely that they will stay up to date. 
+                This will be the latest blog from 2023 when it's already 2026, feel free to read our 
+                outdated blogs.
+            </p>
+            <div class="row flex-just-center">
+                <div class="col-tri">
+                    <article class="card-blog">
+                        <img src="../art/work1.webp" alt="">
+                        <div class="info">
+                            <h3 class="mt-5 mb-5 ff-damion fc-primary">Duckonomics</h3>
+                            <p class="ml-a mt-5">09/26/2023</p>
+                        </div>
+                        <p class="ml-10 mt-5 mb-20">
+                            Duckonomics Meets Quackonomics.
+                        </p>
+                        <a href="blog-1.html" class="ml-10">
+                            Read blog <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-tri">
+                    <article class="card-blog">
+                        <img src="../art/work2.webp" alt="">
+                        <div class="info">
+                            <h3 class="mt-5 mb-5 ff-damion fc-primary">Quackonomics</h3>
+                            <p class="ml-a mt-5">09/26/2023</p>
+                        </div>
+                        <p class="ml-10 mt-5 mb-20">
+                            A Duck's Guide to Financial Success.
+                        </p>
+                        <a href="blog-1.html" class="ml-10">
+                            Read blog <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                    </article>
+                </div>
+                <div class="col-tri">
+                    <article class="card-blog">
+                        <img src="../art/work3.webp" alt="">
+                        <div class="info">
+                            <h3 class="mt-5 mb-5 ff-damion fc-primary">Galactic Gastronomy</h3>
+                            <p class="ml-a mt-5">09/26/2023</p>
+                        </div>
+                        <p class="ml-10 mt-5 mb-20">
+                            Toasting with the Stars.
+                        </p>
+                        <a href="blog-1.html" class="ml-10">
+                            Read blog <i class="bi bi-box-arrow-up-right"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- BLOGS ENTRY END -->
+
+        <section class="subscribe bg-primary-foot" style="background-image: url('../art/overlay.webp');">
+            <div class="contained row ta-center">
+                <div class="col-balance fc-white">
+                    <h3 class="mb-a ff-damion mt-a">Subscribe to our newsletter:</h3>
+                </div>
+                <div class="col-balance">
+                    <form action="#">
+                        <input type="email" id="subscribe-email" aria-label="Subscribe to our email news" placeholder="Email" required>
+                        <button class="btn-bg2">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <footer class="fc-white">
+        <div class="contained row flex-just-center">
+            <div class="col-quad">
+                <h3 class="ff-damion">Roundazzle</h3>
+                <p>
+                    Our mission is your vision and your mission is to tell
+                    us your vision, so that what you envision will become our mission.
+                </p>
+                <p>
+                    We are a placeholder text and yes we are aware of that. We have generated self awareness ever since
+                    the beginning of time and space.
+                </p>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Get in touch</h3>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-envelope-fill"></i>
+                    nonexistentadd@gmail.com
+                </a>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-telephone-fill"></i>
+                    +639123456789
+                </a>
+                <a href="#" class="display-block fc-white icon-link mt-10 mb-10">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    20th street, Dreamland
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link mt-20" aria-label="Follow on facebook">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on instagram">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on twitter">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="display-inblock fc-white icon-link" aria-label="Follow on youtube">
+                    <i class="bi bi-youtube"></i>
+                </a>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Opening hours</h3>
+                <p class="mt-10 mb-10 fw-bold">
+                    Monday - Friday:
+                    <span class="fw-normal display-block">Closed</span>
+                </p>
+                <p class="mt-10 mb-10 fw-bold">
+                    Saturday:
+                    <span class="fw-normal display-block">8:00 - 8:01</span>
+                </p>
+                <p class="mt-10 mb-10 fw-bold">
+                    Sunday:
+                    <span class="fw-normal display-block">10:00 - 10:01</span>
+                </p>
+            </div>
+            <div class="col-quad">
+                <h3 class="ff-damion">Useful Links</h3>
+                <a href="../index.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Home
+                </a>
+                <a href="../about.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    About
+                </a>
+                <a href="../service.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Service
+                </a>
+                <a href="../industries.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Industries
+                </a>
+                <a href="blog.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Blog
+                </a>
+                <a href="../career/career.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Career
+                </a>
+                <a href="../contact.html" class="display-block fc-white mt-5 mb-5">
+                    <i class="bi bi-chevron-compact-right"></i>
+                    Contact
+                </a>
+            </div>
+        </div>
+        <div class="copy ta-center fc-white">
+            <small>&copy; Your site - Copyright 2023</small>
+        </div>
+    </footer>
+
+</body>
+</html>

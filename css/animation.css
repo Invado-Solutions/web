@@ -3,10 +3,7 @@
 */
 :root{
     --slideImage1 :url('../art/servicio.jpg'); 
-    --slideImage3 :url('../art/estacion1.jpg');
-    --slideImage3 :url('../art/background.jpg');
-    --slideImage3 :url('../art/estacion2.jpg');
-    --slideImage2 :url('../art/servcio\ 2.jpg');
+    --slideImage2 :url('../art/estacion1.jpg'); 
     --slideImage3 :url('../art/estacion3.jpg');
 }
 

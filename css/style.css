@@ -1,6 +1,399 @@
 /* 
     Handcoded by JAC - Johnny Alimoot C.
 */
+
+
+/*nuevos cambios*//* Regular */
+@font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-Regular.ttf') format('truetype');
+	font-weight: 400; /* Regular */
+	font-style: normal;
+  }
+  
+  /* Light */
+  @font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-Light.ttf') format('truetype');
+	font-weight: 300; /* Light */
+	font-style: normal;
+  }
+  
+  /* Extra Light */
+  @font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-ExtraLight.ttf') format('truetype');
+	font-weight: 200; /* Extra Light */
+	font-style: normal;
+  }
+  
+  /* Medium */
+  @font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-Medium.ttf') format('truetype');
+	font-weight: 500; /* Medium */
+	font-style: normal;
+  }
+  
+  /* Bold */
+  @font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-Bold.ttf') format('truetype');
+	font-weight: 700; /* Bold */
+	font-style: normal;
+  }
+  
+  /* Extra Bold */
+  @font-face {
+	font-family: 'Turret_Road';
+	src: url('../font/Turret_Road/TurretRoad-ExtraBold.ttf') format('truetype');
+	font-weight: 800; /* Extra Bold */
+	font-style: normal;
+  }
+
+/* Extra Bold */
+.turret-road-extrabold {
+  font-family: 'Turret_Road', sans-serif;
+  font-weight: 800; /* Extra Bold */
+  font-style: normal;
+}
+
+/* Extra Light */
+.turret-road-extralight {
+  font-family: 'Turret_Road', sans-serif;
+  font-weight: 200; /* Extra Light */
+  font-style: normal;
+}
+  /* Bold */
+.turret-road-bold {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 700; /* Bold */
+	font-style: normal;
+  }
+  
+  /* Extra Bold */
+  .turret-road-extrabold {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 800; /* Extra Bold */
+	font-style: normal;
+  }
+  
+  /* Extra Light */
+  .turret-road-extralight {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 200; /* Extra Light */
+	font-style: normal;
+  }
+  
+  /* Light */
+  .turret-road-light {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 300; /* Light */
+	font-style: normal;
+  }
+  
+  /* Medium */
+  .turret-road-medium {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 500; /* Medium */
+	font-style: normal;
+  }
+  
+  /* Regular */
+  .turret-road-regular {
+	font-family: 'Turret_Road', sans-serif;
+	font-weight: 400; /* Regular */
+	font-style: normal;
+  }
+/* Black */
+@font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/nunito/Nunito-Black.ttf') format('truetype');
+	font-weight: 900; /* Black */
+	font-style: normal;
+  }
+  
+  /* Black Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../fonts/nunito/Nunito-BlackItalic.ttf') format('truetype');
+	font-weight: 900; /* Black */
+	font-style: italic;
+  }
+  
+  /* Bold */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Bold.ttf') format('truetype');
+	font-weight: 700; /* Bold */
+	font-style: normal;
+  }
+  
+  /* Bold Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-BoldItalic.ttf') format('truetype');
+	font-weight: 700; /* Bold */
+	font-style: italic;
+  }
+  
+  /* Extra Bold */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-ExtraBold.ttf') format('truetype');
+	font-weight: 800; /* Extra Bold */
+	font-style: normal;
+  }
+  
+  /* Extra Bold Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800; /* Extra Bold */
+	font-style: italic;
+  }
+  
+  /* Light */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Light.ttf') format('truetype');
+	font-weight: 300; /* Light */
+	font-style: normal;
+  }
+  
+  /* Extra Light */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-ExtraLight.ttf') format('truetype');
+	font-weight: 200; /* Extra Light */
+	font-style: normal;
+  }
+  
+  /* Extra Light Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200; /* Extra Light */
+	font-style: italic;
+  }
+  
+  /* Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Italic.ttf') format('truetype');
+	font-weight: 400; /* Regular Italic */
+	font-style: italic;
+  }
+  
+  /* Italic Variable Font Weight */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Italic-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900; /* Variable font weights */
+	font-style: italic;
+  }
+  
+  /* Light Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-LightItalic.ttf') format('truetype');
+	font-weight: 300; /* Light */
+	font-style: italic;
+  }
+  
+  /* Medium */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Medium.ttf') format('truetype');
+	font-weight: 500; /* Medium */
+	font-style: normal;
+  }
+  
+  /* Medium Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-MediumItalic.ttf') format('truetype');
+	font-weight: 500; /* Medium */
+	font-style: italic;
+  }
+  
+  /* Regular */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-Regular.ttf') format('truetype');
+	font-weight: 400; /* Regular */
+	font-style: normal;
+  }
+  
+  /* Semi Bold */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-SemiBold.ttf') format('truetype');
+	font-weight: 600; /* Semi Bold */
+	font-style: normal;
+  }
+  
+  /* Semi Bold Italic */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600; /* Semi Bold */
+	font-style: italic;
+  }
+  
+  /* Variable Font Weight */
+  @font-face {
+	font-family: 'Nunito';
+	src: url('../font/nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+	font-weight: 100 900; /* Variable font weights */
+	font-style: normal;
+  }
+
+  /* Black */
+.nunito-black {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900; /* Black */
+	font-style: normal;
+  }
+  
+  /* Black Italic */
+  .nunito-black-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 900; /* Black */
+	font-style: italic;
+  }
+  
+  /* Bold */
+  .nunito-bold {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700; /* Bold */
+	font-style: normal;
+  }
+  
+  /* Bold Italic */
+  .nunito-bold-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700; /* Bold */
+	font-style: italic;
+  }
+  
+  /* Extra Bold */
+  .nunito-extrabold {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800; /* Extra Bold */
+	font-style: normal;
+  }
+  
+  /* Extra Bold Italic */
+  .nunito-extrabold-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800; /* Extra Bold */
+	font-style: italic;
+  }
+  
+  /* Light */
+  .nunito-light {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300; /* Light */
+	font-style: normal;
+  }
+  
+  /* Extra Light */
+  .nunito-extralight {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200; /* Extra Light */
+	font-style: normal;
+  }
+  
+  /* Extra Light Italic */
+  .nunito-extralight-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200; /* Extra Light */
+	font-style: italic;
+  }
+  
+  /* Italic */
+  .nunito-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400; /* Regular Italic */
+	font-style: italic;
+  }
+  
+  /* Italic Variable Font Weight */
+  .nunito-italic-variable {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100 900; /* Variable font weights */
+	font-style: italic;
+  }
+  
+  /* Light Italic */
+  .nunito-light-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 300; /* Light */
+	font-style: italic;
+  }
+  
+  /* Medium */
+  .nunito-medium {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500; /* Medium */
+	font-style: normal;
+  }
+  
+  /* Medium Italic */
+  .nunito-medium-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500; /* Medium */
+	font-style: italic;
+  }
+  
+  /* Regular */
+  .nunito-regular {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400; /* Regular */
+	font-style: normal;
+  }
+  
+  /* Semi Bold */
+  .nunito-semibold {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600; /* Semi Bold */
+	font-style: normal;
+  }
+  
+  /* Semi Bold Italic */
+  .nunito-semibold-italic {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600; /* Semi Bold */
+	font-style: italic;
+  }
+  
+  /* Variable Font Weight */
+  .nunito-variable {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100 900; /* Variable font weights */
+	font-style: normal;
+  }
+
+ 
+  .newtext{
+    color: white;
+  }
+
+  .colour{
+    background-color: #0A0A0A;
+    color: #0A0A0A;
+  }
+
+
+  .colove{
+    background-color: #A6D10D
+  }
+
+  .colona{ 
+    background-color: #F4650b;
+  }
+/*nuevos cambios*/
 :root{
     --h1TextSize: 2.66em;
     --h2TextSize: 1.90em;
@@ -10,26 +403,45 @@
     --pTextSize: 1em;
     --smTextSize: 0.85em;
 
-    --shadowColor: #525f8014;
+    --shadowColor: #00000042;
     --bgWhite : #ffffff;
     --bgBlack : #232527;
 
-    --primaryColor : #87C350;
-    --primaryBgBody : #ebeef4;
-    --primaryBgFoot : #630A06;
+    --primaryColor : #a6d10d;
+    --primaryBgBody : #f4f4f2;
+    --primaryBgFoot : #1c1c19;
 
     --textWhite : #ffffff;
-    --textBlack : #212121;
+    --textBlack : #000000;
 
-    --selectionBg : #F46503;
+    --selectionBg : #F4650b;
     --selectionText : #eaecf4;
 
     --navHeight : 74px;
 }
 
 .favi{
-    width: 10%;
+    width: 50%;
     
+}
+.favi2{
+    width: 5%;
+    
+}
+
+.margen{
+    size-adjust: auto;
+}
+
+.carousel-horizontal {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+.carousel-item {
+    display: inline-block;
+    width: auto;
 }
 
 .gcc{
@@ -237,7 +649,7 @@ section{
             box-shadow: 0 0 27px var(--shadowColor);
 }
 section.bg-primary-foot{
-    background-image: url('../svg/blob.svg');
+    background-image: url('../svg/blobna.svg');
     background-position: center;
     -moz-background-size: cover 100%;
       -o-background-size: cover 100%;

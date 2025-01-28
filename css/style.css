@@ -381,8 +381,8 @@
   }
 
   .colour{
-    background-color: #0A0A0A;
-    color: #0A0A0A;
+    background-color: #1c1c19;
+    color: #1c1c19;
   }
 
 
@@ -512,7 +512,7 @@ nav{
     -webkit-box-shadow: 0 8px 27px -10px var(--shadowColor);
        -moz-box-shadow: 0 8px 27px -10px var(--shadowColor);
             box-shadow: 0 8px 27px -10px var(--shadowColor);
-    background-color: var(--bgWhite);
+    background-color: var(--primaryBgFoot);
     height: var(--navHeight);
     z-index: 10;
 }

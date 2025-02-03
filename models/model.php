@@ -1,0 +1,11 @@
+<p class="nunito-black">Este texto usa Nunito Black.</p> <br>              
+                <p class="nunito-bold-italic">Este texto usa Nunito Bold Italic.</p><br>
+                <p class="nunito-light">Este texto usa Nunito Light.</p><br>
+                <p class="nunito-medium-italic">Este texto usa Nunito Medium Italic.</p><br>
+                <p class="nunito-variable">Este texto usa Nunito Variable Font Weight.</p><br>
+                <p class="turret-road-bold">Este texto usa Turret Road Bold.</p><br>
+                <p class="turret-road-extrabold">Este texto usa Turret Road Extra Bold.</p><br>
+                <p class="turret-road-extralight">Este texto usa Turret Road Extra Light.</p><br>
+                <p class="turret-road-light">Este texto usa Turret Road Light.</p><br>
+                <p class="turret-road-medium">Este texto usa Turret Road Medium.</p><br>
+                <p class="turret-road-regular">Este texto usa Turret Road Regular.</p><br>
